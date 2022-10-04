@@ -30,3 +30,13 @@
 .section{
   padding: 25px;
 }
+
+.itensGrid{
+  padding-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}

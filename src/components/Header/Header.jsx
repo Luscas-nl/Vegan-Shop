@@ -2,6 +2,7 @@ import logo from '../../assets/Logo.jpg'
 import './Header.css'
 
 function Header(props) {
+
     return(
         <div className='headerBox'>
             <img src={logo} alt="" />

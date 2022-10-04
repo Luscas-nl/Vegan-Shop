@@ -1,0 +1,73 @@
+{
+    "itens": [
+        {
+            "nome": "Maquiagem Vegana",
+            "desc": "Óleo de rosa mosqueta pura | Amido de milho de cacau em pó orgânico",
+            "imagem": "https://i.ibb.co/kMKPQ6X/Maquiagem.jpg",
+            "preco": "45.00"
+        },
+
+        {
+            "nome": "Bucha Vegetal",
+            "desc": "Diretamente da planta trepadeira alta, sem produtos quimicos",
+            "imagem": "https://i.ibb.co/Cvtg6v3/Bucha-Vegetal.jpg",
+            "preco": "11.00"
+        },
+
+        {
+            "nome": "Creme Dental",
+            "desc": "Óleo de coco | Hortelã | Melaleuca | Argila Branca | Malva | Xilitol | Carvão Ativado",
+            "imagem": "https://i.ibb.co/30RvHkG/Creme-Dental.jpg",
+            "preco": "11.00"
+        },
+
+        {
+            "nome": "Shampoo e Condicionador",
+            "desc": "Blend De Aminoácidos (PRODEW 500) | D`Pantenol | Pfaffia | Óleo de Amêndoas",
+            "imagem": "https://i.ibb.co/dJ60hVN/Shampoo-e-Condicionador.jpg",
+            "preco": "95.00"
+        },
+
+        {
+            "nome": "Sabonete Liquido",
+            "desc": "Óleo de côco | Azeite de oliva extra virgem | Óleo de girassol | Soda caustica e água | Dióxido de titânio | Extrato glicólico de mel | Essência de pepino ou lavanda",
+            "imagem": "https://i.ibb.co/s3bxy1s/Sabonete-Liquido.jpg",
+            "preco": "29.90"
+        },
+
+        {
+            "nome": "Óleo Corporal",
+            "desc": "Óleo de côco | Óleo de abacate | Óleo de calêndula | Óleo essencial de capim limão",
+            "imagem": "https://i.ibb.co/JdQFM7g/leo-Corporal.jpg",
+            "preco": "35.00"
+        },
+
+        {
+            "nome": "Velas Artesanais",
+            "desc": "Cera de soja e Cera de côco | Pavios feito de algodão | Essência de alecrim, lavanda, bamboo, vanila e côco",
+            "imagem": "https://i.ibb.co/ZGK33s1/Velas-Artesanais.jpg",
+            "preco": "20.00"
+        },
+
+        {
+            "nome": "Creme Para Axilas",
+            "desc": "Óleo de côco | Bicarbonato de sódio | Óleo essencial de tea tree | Óleo essencial de lavanda | Amido de milho orgânico",
+            "imagem": "https://i.ibb.co/dD9mf1V/Creme-Para-Axilas.jpg",
+            "preco": "25.00"
+        },
+
+        {
+            "nome": "Creme Corporal",
+            "desc": "Óleo de côco | Bicarbonato de sódio | Óleo essencial de tea tree | Óleo essencial de lavanda | Amido de milho orgânico",
+            "imagem": "https://i.ibb.co/Sr66s2r/Creme-Corporal.jpg",
+            "preco": "35.00"
+        },
+
+        {
+            "nome": "Sabonete em Barra",
+            "desc": "Óleo de côco | Azeite de oliva extra virgem | Óleo de girassol | Soda caustica e água | Dióxido de titânio | Essência de alecrim, lavanda, bamboo, vanila e côco",
+            "imagem": "https://i.ibb.co/StjcHvq/Sabonete-Em-Barra.jpg",
+            "preco": "10.00"
+        }
+    ]
+}

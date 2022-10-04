@@ -3,6 +3,8 @@ import './App.css'
 import Header from './components/Header/Header'
 import Nav from './components/Nav/Nav'
 import Info from './components/Info/Info'
+import Item from './components/Item/Item'
+import { itens } from "./json/itens.json"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +26,13 @@ function App() {
         <div className="sectionText">
           <p className="sectionDesc">Produtos em</p>
           <h2 className="sectionTitle">Gerais</h2>
+
+          <div className="itensGrid">
+            {itens.map((item) => {
+              return <Item image={item.imagem} name={item.nome} desc={item.desc} value={item.preco} />
+            })}
+          </div>
+
         </div>
       </div>
     </div>
