@@ -1,0 +1,77 @@
+.headerBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 163px;
+    background-color: white;
+}
+
+.headerBox > .fa{
+    font-size: 2.8em;
+    color: #018754;
+    cursor: pointer;
+    margin-right: 45px;
+}
+
+.headerBox > img{
+    height: 100%;
+    margin-left: 15px;
+}
+
+.infobox{
+    color: gray;
+    text-align: left;
+    font-size: .9em;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.loginPlus{
+    color: #018754;
+    cursor: pointer;
+    font-weight: 800;
+    transition: .5s ease;
+}
+
+.loginPlus:hover{
+    text-decoration: underline;
+}
+
+.infobox > i{
+    color: #018754;
+    font-size: 2.4em;
+    padding-right: 7px;
+}
+
+.searchBox{
+    background-color: #E9EDF3;
+    border: none;
+    border-radius: 5px;
+    width: 490px;
+    height: 50px;
+    padding: 3px 40px 5px 15px;
+    box-shadow: none;
+    color: rgb(109, 109, 109);
+}
+
+.boxSearch{
+    position: relative;
+}
+
+.boxSearch > i{
+    color: #018754;
+    font-size: 1.5em;
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.boxSearch > i:hover{
+    opacity: .8;
+}

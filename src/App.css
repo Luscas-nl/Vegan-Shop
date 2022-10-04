@@ -1,0 +1,32 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
+
+.infoDesc{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 65px;
+  background-color: #ffe6f2b9;
+}
+
+.sectionText{
+  text-align: left;
+}
+
+.sectionText > .sectionDesc{
+  color: gray;
+}
+
+.sectionText > .sectionTitle{
+  color: #018754;
+}
+
+.section{
+  padding: 25px;
+}
