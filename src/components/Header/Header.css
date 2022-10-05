@@ -8,6 +8,10 @@
     background-color: white;
 }
 
+.logo{
+    font-size: 6em;
+}
+
 .headerBox > .fa{
     font-size: 2.8em;
     color: #018754;

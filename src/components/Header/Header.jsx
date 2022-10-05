@@ -5,7 +5,7 @@ function Header(props) {
 
     return(
         <div className='headerBox'>
-            <img src={logo} alt="" />
+            <i class="fa fa-leaf logo"></i>
 
             <div className='infobox loginBox'>
                 <i className='fa fa-user'></i>
