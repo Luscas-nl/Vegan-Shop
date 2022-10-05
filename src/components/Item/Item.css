@@ -101,3 +101,19 @@
 .itemBox:hover .itemButtons{
     opacity: 1;
 }
+
+@media (prefers-color-scheme: dark){
+    .cart{
+        color: white;
+        outline: 1px solid white;
+    }
+
+    .buy{
+        color: #2C3639;
+    }
+
+    .itemBox:hover{
+        outline: 1px solid #5a5a5a;
+        box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+    }
+}

@@ -79,3 +79,18 @@
 input:focus{
     outline: 1px solid #cacaca;
 }
+
+@media (prefers-color-scheme: dark) {
+    .headerBox{
+        background-color: #018754;
+    }
+
+    .loginPlus, .infobox > i, .headerBox > .fa{
+        color: white;
+    }
+
+    .infobox{
+        color: rgb(218, 218, 218);
+    }
+
+}

@@ -25,3 +25,13 @@
 .infoDescBox:hover{
     transform: translateY(-7px);
 }
+
+@media (prefers-color-scheme: dark) {
+    .infoDescPlus, .infoDescBox > i{
+        color: white;
+    }
+
+    .infoDescBox{
+        color: rgb(207, 207, 207);
+    }
+}

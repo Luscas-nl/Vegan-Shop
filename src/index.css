@@ -27,8 +27,9 @@ body::-webkit-scrollbar-thumb {
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgb(255, 255, 255);
-  background-color: #242424;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  color-scheme: dark light;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -62,17 +63,18 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: white;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    color: #213547;
-    background-color: white;
+    color: white;
+    background-color: #2C3639;
   }
-  button {
-    background-color: #f9f9f9;
+
+  body::-webkit-scrollbar-track{
+    background: #2C3639;
   }
 }

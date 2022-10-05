@@ -40,3 +40,13 @@
   align-items: center;
   justify-content: space-around;
 }
+
+@media (prefers-color-scheme: dark) {
+  .infoDesc{
+    background-color: #790252;
+  }
+
+  .sectionText > .sectionDesc{
+    color: rgb(209, 209, 209);
+  }
+}
