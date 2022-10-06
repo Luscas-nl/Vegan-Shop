@@ -4,7 +4,7 @@ function Item(props) {
     return(
         <div className="itemBox">
             <div className="imgBox">
-                <img src={props.image ?? "https://i.ibb.co/kMKPQ6X/Maquiagem.jpg"} alt="item" />
+                <img src={props.image ?? "https://i.ibb.co/kMKPQ6X/Maquiagem.jpg"} alt="Imagem do Produto" />
             </div>
             <div className="itemInfo">
                 <p className='itemName'>{props.name ?? "Maquiagem Vegana"}</p>

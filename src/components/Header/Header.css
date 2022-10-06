@@ -8,8 +8,17 @@
     background-color: white;
 }
 
-.logo{
-    font-size: 6em;
+.logoBox{
+    color: #018754;
+    margin-left: 45px;
+}
+
+.logoBox > i{
+    font-size: 4em;
+}
+
+.logoTxt{
+    font-weight: 700;
 }
 
 .headerBox > .fa{

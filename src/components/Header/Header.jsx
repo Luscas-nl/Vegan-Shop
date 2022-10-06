@@ -5,7 +5,10 @@ function Header(props) {
 
     return(
         <div className='headerBox'>
-            <i class="fa fa-leaf logo"></i>
+            <div className="logoBox">
+                <i class="fa fa-leaf logo"></i>
+                <p className='logoTxt'>Vegan Shop</p>
+            </div>
 
             <div className='infobox loginBox'>
                 <i className='fa fa-user'></i>
