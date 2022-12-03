@@ -4,13 +4,16 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 143px;
+    height: 123px;
     background-color: white;
+    padding: 0 45px;
+    -webkit-box-shadow: 0 4px 12px 4.5px #000000;
+    -moz-box-shadow: 0 4px 12px 4.5px #000000;
+    box-shadow: 0 4px 12px 4.5px #000000;
 }
 
 .logoBox{
     color: #018754;
-    margin-left: 45px;
 }
 
 .logoBox > i{
@@ -25,7 +28,6 @@
     font-size: 2.8em;
     color: #018754;
     cursor: pointer;
-    margin-right: 45px;
 }
 
 .headerBox > img{
@@ -41,17 +43,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.loginPlus{
-    color: #018754;
-    cursor: pointer;
-    font-weight: 800;
-    transition: .5s ease;
-}
-
-.loginPlus:hover{
-    text-decoration: underline;
 }
 
 .infobox > i{
@@ -93,7 +84,7 @@ input:focus{
     outline: 1px solid #cacaca;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     .headerBox{
         background-color: #018754;
     }

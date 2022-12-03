@@ -1,0 +1,39 @@
+.loginPlus{
+    color: #018754;
+    cursor: pointer;
+    font-weight: 800;
+    transition: .5s ease;
+    font-size: 1.05em;
+}
+
+.loginPlus:hover{
+    text-decoration: underline;
+}
+
+.userName{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #018754;
+}
+
+.userTextsBox{
+    text-align: right;
+    margin-right: 7px;
+    line-height: 1;
+}
+
+.userBox > .fa{
+    font-size: 2.8em;
+    padding: 0;
+}
+
+.userOff{
+    font-size: .8em;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.userOff:hover{
+    font-size: .85em;
+    color: red;
+}

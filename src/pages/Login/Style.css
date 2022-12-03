@@ -1,0 +1,119 @@
+.loginBox{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.loginBut{
+    user-select: none;
+    padding: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.loginInner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.loginTitle{
+    font-size: 3em;
+    margin-bottom: 25px;
+}
+
+.loginSeparator{
+    height: 75%;
+    background-color: rgb(0, 0, 0);
+    width: 3px;
+    margin: 75px;
+}
+
+.backLogin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: .8s ease;
+}
+
+.backLogin > .fa{
+    font-size: 1.3em;
+    margin-right: 5px;
+}
+
+.shopNameLogin{
+    font-size: 9em;
+    line-height: .9;
+    text-align: left;
+}
+
+.loginDesc{
+    font-size: 1.8em;
+    line-height: 1.2;
+    width: 440px;
+    margin: 25px 0;
+    text-align: left;
+}
+
+.loginBut > .fa{
+    margin-right: 9px;
+    font-size: 1.3em;
+}
+
+
+.loginBut:hover{
+    border: 2px solid #D21F35;
+    color: #D21F35;
+}
+
+.backLogin:hover{
+    transform: translateX(9px);
+}
+
+.checkLoginBox{
+    display: flex;
+    font-size: .9em;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 11px;
+}
+
+.checkLoginBox > label{
+    margin-left: 5px;
+}
+
+.checkLoginBox > input[type='checkbox']{
+    all: unset;
+    border: 2px solid rgb(0, 0, 0);
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.checkLoginBox > input[type='checkbox']:checked{
+    background-color: #018754;
+}
+
+.checkLoginBox > input[type='checkbox']:checked:hover{
+    background-color: #018754;
+}
+
+.checkLoginBox > input[type='checkbox']:hover{
+    background-color: #01875449;
+}

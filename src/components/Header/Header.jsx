@@ -1,5 +1,6 @@
 import logo from '../../assets/Logo.jpg'
 import './Header.css'
+import HeaderUser from './HeaderUser/Index'
 
 function Header(props) {
 
@@ -10,10 +11,10 @@ function Header(props) {
                 <p className='logoTxt'>Vegan Shop</p>
             </div>
 
-            <div className='infobox loginBox'>
-                <i className='fa fa-user'></i>
+            <div className='infobox loginCall'>
+                <i className='fa fa-whatsapp'></i>
                 <p>
-                    Faça <span className='loginPlus'>Login</span><br /> ou <span className='loginPlus'>Cadastre-se</span>
+                    Fale conosco <br /><span className='loginPlus'>(82) 99999-9999</span>
                 </p>
             </div>
 
@@ -23,14 +24,9 @@ function Header(props) {
                 <i className='fa fa-search'></i>
             </div>
 
-            <div className='infobox loginCall'>
-                <i className='fa fa-whatsapp'></i>
-                <p>
-                    Fale conosco <br /><span className='loginPlus'>(82) 99999-9999</span>
-                </p>
-            </div>
-
             <i className='fa fa-shopping-cart'></i>
+
+            <HeaderUser />
         </div>
     )
 }

@@ -1,6 +1,20 @@
+import { useContext } from 'react'
+import { Navigate } from 'react-router-dom';
+import { AuthGoogleContext } from '../../contexts/googleAuth'
 import './Item.css'
 
 function Item(props) {
+
+    const { signed } = useContext(AuthGoogleContext)
+    function VerifyLogin(){
+        if(signed)
+        {
+            console.log("Esta Logado");
+        } else {
+            document.location.href = "/login"
+        }
+    }
+
     return(
         <div className="itemBox">
             <div className="imgBox">
@@ -13,8 +27,8 @@ function Item(props) {
             </div>
 
             <div className="itemButtons">
-                <button href="" className="itemButton cart">Adicionar no carrinho</button>
-                <button href="" className="itemButton buy">Comprar</button>
+                <button onClick={VerifyLogin} className="itemButton cart">Adicionar no carrinho</button>
+                <button onClick={VerifyLogin} className="itemButton buy">Comprar</button>
             </div>
         </div>
     )
