@@ -28,7 +28,7 @@ body::-webkit-scrollbar-thumb {
 
   color-scheme: light dark;
   color: rgb(0, 0, 0);
-  background-color: white;
+  background-color: #EBEBEB;
   color-scheme: dark light;
 
   font-synthesis: none;
@@ -63,7 +63,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: white;
+  background-color: #EBEBEB;
   cursor: pointer;
   transition: border-color 0.25s;
 }

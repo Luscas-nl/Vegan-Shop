@@ -4,6 +4,7 @@ import Nav from '../../components/Nav/Nav'
 import Info from '../../components/Info/Info'
 import Item from '../../components/Item/Item'
 import { itens } from "../../json/itens.json"
+import Carousel from "react-elastic-carousel"
 
 function Home() {
 
@@ -25,11 +26,11 @@ function Home() {
             <p className="sectionDesc">Produtos em</p>
             <h2 className="sectionTitle">Gerais</h2>
 
-            <div className="itensGrid">
+            <Carousel itemsToShow={4}>
                 {itens.map((item) => {
                 return <Item image={item.imagem} name={item.nome} desc={item.desc} value={item.preco} />
                 })}
-            </div>
+            </Carousel>
 
             </div>
         </div>

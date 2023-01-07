@@ -1,19 +1,21 @@
 .itemBox{
-    width: 300px;
-    height: 418px;
+    width: 282px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 3px;
     position: relative;
-    margin: 30px 9px;
+    margin: 30px 0px;
     user-select: none;    
     outline: 1px solid #dbdbdb;
+    background-color: white;
+    transition: 0.25s ease;
 }
 
 .imgBox{
-    width: 270px;
-    height: 270px;
+    width: 250px;
+    height: 250px;
     margin-top: 15px;
     cursor: pointer;
 }
@@ -23,6 +25,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 4px;
+    pointer-events: none;
 }
 
 .itemInfo{
@@ -93,9 +96,9 @@
 
 .itemBox:hover{
     outline: 1px solid #dbdbdb;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    height: 478px;
-    margin: 0 9px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 11px;
+    height: 460px;
+    margin: 0px;
 }
 
 .itemName:hover{
