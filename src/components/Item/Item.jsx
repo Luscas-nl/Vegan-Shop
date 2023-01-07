@@ -1,6 +1,7 @@
 import { useContext } from 'react'
 import { Navigate } from 'react-router-dom';
 import { AuthGoogleContext } from '../../contexts/googleAuth'
+import Login from '../../pages/Login/Login';
 import './Item.css'
 
 function Item(props) {
@@ -11,7 +12,7 @@ function Item(props) {
         {
             console.log("Esta Logado");
         } else {
-            document.location.href = "/login"
+            return <Navigate to={Login} />
         }
     }
 
